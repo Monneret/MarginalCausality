@@ -1,0 +1,16 @@
+Package: MarginalCausality
+Type: Package
+Title: Bayesian Solution to the Marginal Causality
+Version: 0.1.1
+Author: Gilles Monneret
+Maintainer: Gilles Monneret <gilles.monneret@upmc.fr>
+Description: Under the framework of linear gaussian acyclic graph without latent variable, and with both observational and interventional datas,
+    this package answer the question of causality between the interventional node and some other node.
+    To do so, we use a bayes factor which is computed by this package.
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: testthat, mvtnorm, stats,
+    knitr,
+    rmarkdown, igraph, Rgraphviz
+VignetteBuilder: knitr
